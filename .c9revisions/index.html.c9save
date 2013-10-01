@@ -7,3 +7,4 @@
 {"ts":1380272570150,"patch":[[{"diffs":[[0,"ex.html\""],[-1,"<"],[1,">"],[0,"gå till "]],"start1":530,"start2":530,"length1":17,"length2":17}]],"length":1044,"saved":false}
 {"ts":1380272616510,"patch":[[{"diffs":[[0,"a href=\""],[1,"pages/New folder/"],[0,"alex.htm"]],"start1":520,"start2":520,"length1":16,"length2":33}]],"length":1061,"saved":false}
 {"ts":1380272744035,"patch":[[{"diffs":[[0,"ges/New "],[-1,"f"],[1,"F"],[0,"older/al"]],"start1":530,"start2":530,"length1":17,"length2":17}]],"length":1061,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1380580789890,"patch":[[{"diffs":[[0,"    "],[-1,"<li><a href=\"pages/New Folder/alex.html\">gå till alex sida</a></li>"],[0,"\n   "]],"start1":511,"start2":511,"length1":75,"length2":8}]],"length":994,"saved":false}

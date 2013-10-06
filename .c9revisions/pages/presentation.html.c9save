@@ -33,3 +33,4 @@
 {"ts":1380631663929,"patch":[[{"diffs":[[0,"minbild\""],[1," \""],[0,"alt=\"bil"]],"start1":2611,"start2":2611,"length1":16,"length2":18}]],"length":2699,"saved":false}
 {"ts":1380631786138,"patch":[[{"diffs":[[0,"alex.jpg"],[1,"\""],[0,"/id=\"min"]],"start1":2598,"start2":2598,"length1":16,"length2":17},{"diffs":[[0,"inbild\" "],[-1,"\""],[0,"alt=\"bil"]],"start1":2613,"start2":2613,"length1":17,"length2":16}]],"length":2699,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1380878156050,"patch":[[{"diffs":[[0,"x\" />\n  "],[1,"   <li><a href=\"../laborationer.html\">Gå till laborationer</a></li>"],[0,"\n  \n  \n "]],"start1":2664,"start2":2664,"length1":16,"length2":83}]],"length":2766,"saved":false}
+{"ts":1381064863783,"patch":[[{"diffs":[[0,"a href=\""],[-1,"../"],[0,"laborati"]],"start1":2680,"start2":2680,"length1":19,"length2":16}]],"length":2763,"saved":false}

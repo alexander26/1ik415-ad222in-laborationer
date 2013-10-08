@@ -24,5 +24,45 @@
 
 
 
+
+    <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post"> 
+        <Fieldset>
+        <legend>Fråga</legend>  
+        
+        <label>Favoritdrycken</label>
+            <select name="dryck">
+            <option value="Kaffe" selected>Kaffe</option>    
+            <option value="Saft">Saft</option>
+            <option value="O´boy">O´boy</option>
+            <option value="Vatten">Vatten</option>
+        </select></br>  
+        
+        <label>Hur många koppar/glas per dag</label>
+            <select name="antal">
+            <option value="1" selected>1</option>    
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4 eller fler</option>
+            </select></br>
+            
+        
+        <label>Ditt bästa dryckminne</label>
+        <textarea rows="5" cols="30"></textarea>
+             
+        </Fieldset>  
+    <Fieldset>
+    <legend>Om du vinner tvälningen</legend>    
+        
+        
+        
+        <label>Kontakta mig via mail</label><input type="checkbox" name="g1[]" value="mail"/><br/>
+        <label> Kontakta mig via telefon</label><input type="checkbox" name="g1[]" value="telefon"/>
+        
+    </Fieldset>
+    <input type="submit" value="Skicka svar"/> 
+        
+    </form>
+
+
 </body>
 </html>

@@ -8,7 +8,7 @@
     border: 2px solid white;
     color:#8C860E;
     margin: 0 auto;
-    width: 960px;
+    max-width:960px;
      
     
     
@@ -29,7 +29,7 @@
     {
          
 
-    border: 2px solid white;
+    
     background-color:white;
     width:50%;
     float:left;

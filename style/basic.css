@@ -5,9 +5,10 @@
 
 
 #top{
-    border: 2px solid yellow;
-    
-    width: 682px;
+    border: 2px solid white;
+    color:#8C860E;
+    margin: 0 auto;
+    width: 960px;
      
     
     
@@ -15,11 +16,12 @@
     }
     #navigation
     {
-        
-    border: 2px solid purple; 
-    background-color: lime;
+   
+    border: 2px solid white; 
+    background-color:#B5AD12;
     width:200px;
     float:left;
+  
         
         
     }
@@ -27,10 +29,11 @@
     {
          
 
-    
-    background-color:#1AB2E8;
+    border: 2px solid white;
+    background-color:white;
     width:50%;
     float:left;
+    
     }  
 
 
@@ -40,10 +43,15 @@
 {
     
             
-    
+    background-color:#F2E18D;
     overflow: auto;
     max-width:960px;
     margin: 0 auto;
+}
+#footer{
+    
+    
+    
 }
         
 

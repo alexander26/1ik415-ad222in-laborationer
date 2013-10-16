@@ -1,9 +1,25 @@
 
 h1 { 
-    font-style: italic;
+    font-family:"Helvetica","Arial", sans-serif;
+}
+h2{
+    
+
+    
+    font-family:Arial;
+    }    
+
+
+h3{
+    
+    font-family:Arial;
 }
 
-
+p{
+    
+    font-family: helvetica;
+    font-size:19px;
+}
 
     
 /*Layout*/
@@ -24,7 +40,7 @@ h1 {
 
 
 a:link{text-decoration:none}
-a:visited   {color:silver; } /*besökta*/
+a:visited   {color:maroon; } /*besökta*/
 a:focus     { color:aqua; }
 a:visited {text-decoration:none}
 

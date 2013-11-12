@@ -166,11 +166,17 @@ a:visited {text-decoration:none}
     background-repeat:no-repeat;
     background-size:310px;
     background-position:left;
+}
+.rub1{
+        
+        font-size:17px;
+        
+    }
     
 
 
 
-}
+
 }
 
 #navi{
@@ -325,7 +331,7 @@ border-radius:20px;
             margin: 0 auto;
             max-width:310px;
             float:left;
-            
+            } 
             
             
 }

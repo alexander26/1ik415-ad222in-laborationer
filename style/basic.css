@@ -1,16 +1,16 @@
 
 h1 { 
     font-family:"Helvetica","Arial", sans-serif;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:10px;
+    margin-right:10px;
 }
 h2{
     
 
     
     font-family:Arial;
-    margin-left:40px;
-    margin-right:40px;   
+    margin-left:10px;
+    margin-right:10px;   
    
     }    
 
@@ -18,16 +18,16 @@ h2{
 h3{
     
     font-family:Arial;
-    margin-left:40px;
-    margin-right:40px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 p{
    
     font-family: helvetica;
     font-size:19px;
-    margin-left:40px;
-    margin-right:40px;
+    margin-left:1px;
+    margin-right:1px;
 }
 
  
@@ -111,14 +111,29 @@ a:visited {text-decoration:none}
     padding:0;
    
 }  
-  
+
+@media only screen and (max-width:481px) /*För alla mobilsidor*/  
+{
+    #container
+    {
+     
+        background-color:white;            
+        
+        max-width:481px;
+        margin: 0 auto;
+        padding:0;
+       
+    }  
+}
+
+
     
 #top{
     color:#7960EF;
     background-color:black;
     
     margin: 0 auto;
-    max-width:1000px;
+    max-width:980px;
     height:150px;
  
     padding-top:10px;
@@ -129,26 +144,102 @@ a:visited {text-decoration:none}
     background-size:1000px;
     background-position:left;
     
-}    
+}  
 
-#navigation{
+@media only screen and (max-width:481px) /*För alla mobilsidor*/  
+{
     
+    
+    
+#top{
+    color:#7960EF;
+    background-color:white;
+    
+    margin: 0 auto;
+    max-width:310px;
+    height:150px;
+ 
+    padding-top:10px;
+
+
+    background-image:url(../pages/pics/kula.jpg);
+    background-repeat:no-repeat;
+    background-size:310px;
+    background-position:left;
+    
+
+
+
+}
+}
+
+#navi{
+  
 float:left;    
 margin:0 auto;    
     
     
 }
 
+@media only screen and (max-width:481px) /*För alla mobilsidor*/  
+{
+    
+    #navi{
+            width:310px;  
+            float:left;    
+            margin:0 auto;
+                
+                
+                
+         }
+}
 #sociallist{
- list-style-type:none;
- /*border-bottom:none;*/
- width: 150px;
-margin-top:80px;
- /*margin:0; padding:0;*/
- float:left;
-border-radius:20px;
+             list-style-type:none;
+             /*border-bottom:none;*/
+             
+             width: 150px;
+            float:left;
+             margin:0; padding:0;
+            
+            border-radius:20px;
  
 }
+@media only screen and (max-width:481px) /*För alla mobilsidor*/ 
+{
+    
+    
+            
+#sociallist{
+             list-style-type:none;
+             /*border-bottom:none;*/
+             
+             width: 310px;
+            float:left;
+             margin:0; padding:0;
+            
+           
+            }
+    
+    
+}
+
+    
+    
+
+/*#sociallist{
+ list-style-type:none;
+ /*border-bottom:none;
+ 
+ width: 50px;
+float:left;
+ margin:0; padding:0;
+
+border-radius:20px;
+
+  */  
+    
+    
+    
 
 
 #content{
@@ -158,7 +249,7 @@ border-radius:20px;
         
         
         background-color:white;
-        max-width:960px;
+        max-width:750px;
         
         border-radius:20px;
         
@@ -174,6 +265,35 @@ border-radius:20px;
     
     
 }
+
+@media only screen and (max-width:481px) /*För alla mobilsidor*/
+{
+    #content{
+                padding-left: 0;
+                padding-right: 0;
+                background-color:white;
+                max-width:310px;
+             
+                border-radius:2px;
+                
+                margin:0 auto;
+                float:left;
+            }    
+    
+   .right{
+       
+      max-width:50px;
+       max-height:50px;
+       
+   } 
+  
+        
+      
+}    
+    
+    
+    
+
 #footer{
   
        color:#7960EF;
@@ -187,21 +307,42 @@ border-radius:20px;
     max-width:980px;
     float:left;
     width:100%;
-  
-
+   
+ 
 }
+@media only screen and (max-width:481px) /*För alla mobilsidor*/
+{
+    #footer{
+            color:#7960EF;
+            background-image:url(../pages/pics/kula.jpg);
+            background-color:white;
+            
+            margin-bottom:5px;
+            background-size:310px;
+            background-repeat:no-repeat;
+            
+            
+            margin: 0 auto;
+            max-width:310px;
+            float:left;
+            
+            
+            
+}
+
+
 
 /* index*/
 
 .right{
     
-   
+  
  float:left;
-
- padding-right:40px;
+margin-bottom:50px;
+    
+ 
 
 }
-
    
     /* Use COLORS:
     *white
@@ -218,7 +359,6 @@ border-radius:20px;
     background-color:silver;
     max-width:700px;
     max-height:650px;
-    
-}
+}    
 
-    
+                                                                                                                           

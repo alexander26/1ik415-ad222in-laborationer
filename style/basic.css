@@ -57,46 +57,77 @@ p{
    
 
 
-
+/*
 a:link{text-decoration:none;color:#16CCAE;}
 a:visited   {color:silver; } /*besökta*/
-a:focus     { color:black; }
+
+
+#navi
+{
+    float:left;    
+}
+
+#navi ul
+{
+    list-style-type: none;
+    width:100px;
+    margin:0;
+}
+
+#navi li
+{
+    margin-bottom:10px;
+    border:2px solid;       
+}
+
+
+#navi li a
+{
+    margin-bottom:10px;
+
+}
+
+/*a:focus     { color:black; }
 a:visited {text-decoration:none}
 
 
+.meny{border:1px solid black;background-color:#DAF5E0; }
+.meny:hover {background-color:orange; text-decoration:underline;border:none 1px solid #DAF5E0;}
+.meny{display:block; padding:15px;border-bottom: none;}
+.meny: .active
+{
+    font-style:italic;
+    background-color: yellow;
+}
 
+*/
+/*a:hover {background-color:orange; text-decoration:underline;border: 1px solid #DAF5E0;}
+*/
 
-
+/*
 #start{border:1px solid black;background-color:#DAF5E0; }
 #start:hover {color:orange; text-decoration:underline;border:none 1px solid #DAF5E0;}
 #start{display:block; padding:15px;border-bottom: none;}
-#start:active{color:black;}
+#start:active{color:yellow;}
 
 #lab{border:1px solid black;background-color:#DAF5E0;}
 #lab:hover {color:orange; text-decoration:underline;border: 1px solid black;}
 #lab{display:block; padding:15px;border-bottom: none;}
-#lab:active{color:black;}
+#lab:active{color:yellow;}
 
 #kont{border:1px solid black; background-color:#DAF5E0;}
 #kont:hover {color:orange; text-decoration:underline;border: 1px solid black;}
 #kont{display:block; padding:15px;border-bottom: none;}
-#kont:active{color:black;}
+#kont:active{color:yellow;}
 
 
 #pres{border:1px solid black; background-color:#DAF5E0;}
 #pres:hover {color:orange; text-decoration:underline;border: 1px solid black}
 #pres{display:block; padding:15px;}
-#pres:active{color:black;}
+#pres:active{color:yellow;}
 
+*/
 
-#log{border:1px solid black; background-color:#DAF5E0;}
-#log:hover {color:orange; text-decoration:underline;border: 1px solid black}
-#log{display:block; padding:15px;border-top:none;}
-
-#video{border:1px solid black; background-color:#DAF5E0;}
-#video:hover {color:orange; text-decoration:underline;border: 1px solid black}
-#video{display:block; padding:15px;border-top:none;}
-#video:active{color:black;}
 
 
 
@@ -179,15 +210,10 @@ a:visited {text-decoration:none}
 
 }
 
-#navi{
-  
-float:left;    
-margin:0 auto;    
-    
-    
-}
 
+/*
 @media only screen and (max-width:481px) /*För alla mobilsidor*/  
+/*
 {
     
     #navi{
@@ -199,10 +225,11 @@ margin:0 auto;
                 
          }
 }
-#sociallist{
+
+.sociallist{
              list-style-type:none;
              /*border-bottom:none;*/
-             
+  /*           
              width: 150px;
             float:left;
              margin:0; padding:0;
@@ -211,14 +238,14 @@ margin:0 auto;
  
 }
 @media only screen and (max-width:481px) /*För alla mobilsidor*/ 
-{
+/*{
     
     
             
-#sociallist{
+.sociallist{
              list-style-type:none;
              /*border-bottom:none;*/
-             
+  /*           
              width: 310px;
             float:left;
              margin:0; padding:0;
@@ -229,7 +256,6 @@ margin:0 auto;
     
 }
 
-    
     
 
 /*#sociallist{
@@ -255,22 +281,25 @@ border-radius:20px;
         
         
         background-color:white;
-        max-width:750px;
+        max-width:980px;
         
         border-radius:20px;
         
         margin:0 auto;
         float:left; 
+       
+       
+       
         /*margin-left:40px;
         margin-right:40px;
         */
+        }
+   
     
     
     
     
-    
-    
-}
+
 
 @media only screen and (max-width:481px) /*För alla mobilsidor*/
 {
@@ -340,7 +369,8 @@ border-radius:20px;
 
 /* index*/
 
-.right{
+
+.right{ /* <----   bild måne i text*/
     
   
  float:left;
@@ -365,6 +395,26 @@ margin-bottom:50px;
     background-color:silver;
     max-width:700px;
     max-height:650px;
+      background-image:url(../pages/pics/icon2.png);
+            
+            background-repeat:no-repeat;
+            background-size:25px;
+            background-position:top left;
+
 }    
 
-                                                                                                                           
+.inlägg{
+    
+    padding:20px;
+    
+    
+    
+    
+} 
+
+.active
+{
+    font-style: italic;
+      
+    
+}
